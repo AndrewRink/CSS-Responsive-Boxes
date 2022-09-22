@@ -1,3 +1,106 @@
 body {
   background: peachpuff;
 }
+
+* {
+  border: 1px blue solid;
+}
+ 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-height: 100vh;
+}
+
+.a {
+  min-width: 98%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.b {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.c {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.d {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.e {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.f {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.g {
+  min-width: 28%;
+  min-height: 19vh;
+  margin: 1em;
+}
+
+.h {
+  min-width: 98%;
+  min-height: 38vh;
+  margin: 1em;
+}
+
+@media (min-width: 1000px) {
+
+  .a {
+    min-width: 98%;
+    min-height: 30vh;
+    
+  }
+
+  .b {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .c  {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .d  {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .e  {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .f  {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .g  {
+    min-width: 23%;
+    min-height: 30vh;
+  }
+
+  .h {
+    min-width: 23%;
+    min-height: 60vh;
+  }
+}
